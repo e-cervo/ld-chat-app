@@ -1,0 +1,6 @@
+<div class="container" *ngIf="messages$">
+  <app-message
+    *ngFor="let message of messages$ | async"
+    [message]="message"
+  ></app-message>
+</div>
