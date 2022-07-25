@@ -1,0 +1,17 @@
+.message {
+  background-color: #929ddf;
+  padding: 1em;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #3f4da2;
+}
+
+.author {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.content {
+  font-size: 18px;
+}

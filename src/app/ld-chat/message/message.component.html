@@ -1,0 +1,4 @@
+<div class="message" *ngIf="message">
+  <div class="author">{{ message?.sender?.nickname }}</div>
+  <div class="content">{{ message?.content }}</div>
+</div>
